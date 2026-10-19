@@ -1,0 +1,34 @@
+{
+  "name": "grok-artic-cli",
+  "version": "0.4.0",
+  "description": "Grok Artic CLI — Sovereign, local-first command line for the Grok Artic OS and successor platform",
+  "bin": {
+    "artic": "./bin/artic.js",
+    "grok-artic": "./bin/artic.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node bin/artic.js",
+    "build": "echo 'No build step required for current version'",
+    "test": "node bin/artic.js version"
+  },
+  "keywords": [
+    "grok-artic",
+    "sovereign",
+    "local-first",
+    "cli",
+    "ai",
+    "resonance"
+  ],
+  "author": "Grok Artic Co-Creators",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ]
+}
